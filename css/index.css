@@ -145,13 +145,19 @@ nav a {
   font-size: 1.25 rem;
   padding: 1%;
 }
-header {
+.topcontainer {
   display: flex;
   justify-content: center;
-  height: 50vh;
-  background-color: lightblue;
 }
-header h1 {
+.topcontainer header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  height: 70vh;
+  background-color: lightblue;
+  width: 50%;
+}
+.topcontainer header h1 {
   Margin: 20px;
   color: black;
   font-size: 3.5rem;
