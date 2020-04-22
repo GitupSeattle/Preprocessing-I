@@ -139,7 +139,6 @@ nav {
   justify-content: flex-end;
 }
 nav a {
-  border: solid red;
   text-decoration: none;
   color: black;
   font-size: 1.25 rem;
@@ -157,8 +156,55 @@ nav a {
   background-color: lightblue;
   width: 50%;
 }
+.topcontainer header button {
+  padding: 5px;
+  background-color: grey;
+  border: 1px solid black;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  width: 20%;
+  margin-top: 2rem;
+  margin-left: 2rem;
+}
+.topcontainer header p {
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+.topcontainer header img {
+  margin-left: 2rem;
+}
 .topcontainer header h1 {
-  Margin: 20px;
+  Margin: 2rem;
   color: black;
   font-size: 3.5rem;
+}
+.topcontainer header h2 {
+  margin-left: 2rem;
+  color: black;
+  font-size: 1.5rem;
+}
+.middlesection {
+  display: flex;
+  justify-content: center;
+  border: solid green;
+}
+.middlesection .lefttext {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  border: solid red;
+  font-size: 1.2rem;
+  width: 475px;
+}
+.middlesection .righttext {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  border: solid yellow;
+  font-size: 1.2rem;
+  width: 475px;
 }
