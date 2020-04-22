@@ -191,20 +191,34 @@ nav a {
   border: solid green;
 }
 .middlesection .lefttext {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
   border: solid red;
   font-size: 1.2rem;
   width: 475px;
 }
+.middlesection .lefttext h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 .middlesection .righttext {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
   border: solid yellow;
   font-size: 1.2rem;
   width: 475px;
+}
+.middlesection .righttext h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.middlesection .righttext table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.middlesection .righttext td,
+.middlesection .righttext th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.middlesection .righttext tr:nth-child(even) {
+  background-color: #dddddd;
 }

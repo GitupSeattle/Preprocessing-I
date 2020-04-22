@@ -129,13 +129,18 @@ justify-content: center;
 	border: solid green;
 
 	.lefttext {
-		display: flex;
-		justify-content: center;
-		align-content: center;
-		align-items: center;
+		// display: flex;
+		// justify-content: center;
+		// align-content: center;
+		// align-items: center;
 		border: solid red;
 		font-size: 1.2rem;
 		width: 475px;
+
+		h2 {
+			font-size: 1.5rem;
+			font-weight: bold;
+			}
 	
 		p {
 		
@@ -143,13 +148,35 @@ justify-content: center;
 	} // Close lefttext
 
 	.righttext {
-		display: flex;
-		justify-content: center;
-		align-content: center;
-		align-items: center;
+		// display: flex;
+		// justify-content: center;
+		// align-content: center;
+		// align-items: center;
 		border: solid yellow;
 		font-size: 1.2rem;
-		width: 475px;	
+		width: 475px;
+
+		h2 {
+		font-size: 1.5rem;
+		font-weight: bold;
+		}
+		
+		table {
+			font-family: arial, sans-serif;
+			border-collapse: collapse;
+			width: 100%;
+		  }
+		  
+		  td, th {
+			border: 1px solid #dddddd;
+			text-align: left;
+			padding: 8px;
+		  }
+
+		  tr:nth-child(even) {
+			background-color: #dddddd;
+		  }
+		  
 
 	} // Close righttext
 } // Close middlesction
