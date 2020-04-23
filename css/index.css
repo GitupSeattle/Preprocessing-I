@@ -137,6 +137,7 @@ body {
 nav {
   display: flex;
   justify-content: flex-end;
+  margin-right: 465px;
 }
 nav a {
   text-decoration: none;
@@ -188,25 +189,26 @@ nav a {
 .middlesection {
   display: flex;
   justify-content: center;
-  border: solid green;
 }
 .middlesection .lefttext {
-  border: solid red;
   font-size: 1.2rem;
   width: 475px;
 }
 .middlesection .lefttext h2 {
   font-size: 1.5rem;
   font-weight: bold;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 .middlesection .righttext {
-  border: solid yellow;
   font-size: 1.2rem;
   width: 475px;
 }
 .middlesection .righttext h2 {
   font-size: 1.5rem;
   font-weight: bold;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 .middlesection .righttext table {
   font-family: arial, sans-serif;
@@ -220,5 +222,27 @@ nav a {
   padding: 8px;
 }
 .middlesection .righttext tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.workxp {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
+.workxp .worktable {
+  width: 950px;
+}
+.workxp .worktable table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.workxp .worktable td,
+.workxp .worktable th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.workxp .worktable tr:nth-child(even) {
   background-color: #dddddd;
 }
