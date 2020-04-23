@@ -139,6 +139,11 @@ nav {
   justify-content: flex-end;
   margin-right: 465px;
 }
+@media (max-width: 500px) {
+  nav {
+    margin-right: 120px;
+  }
+}
 nav a {
   text-decoration: none;
   color: black;
@@ -156,6 +161,11 @@ nav a {
   height: 70vh;
   background-color: lightblue;
   width: 50%;
+}
+@media (max-width: 500px) {
+  .topcontainer header {
+    width: 500px;
+  }
 }
 .topcontainer header button {
   padding: 5px;
@@ -175,6 +185,12 @@ nav a {
 }
 .topcontainer header img {
   margin-left: 2rem;
+}
+@media (max-width: 500px) {
+  .topcontainer header img {
+    display: none;
+    border: 1px solid red;
+  }
 }
 .topcontainer header h1 {
   Margin: 2rem;
