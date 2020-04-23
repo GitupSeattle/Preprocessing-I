@@ -178,6 +178,11 @@ nav a {
   margin-top: 2rem;
   margin-left: 2rem;
 }
+@media (max-width: 500px) {
+  .topcontainer header button {
+    width: 50%;
+  }
+}
 .topcontainer header p {
   font-size: 1.5rem;
   margin-left: 2rem;
